@@ -1,4 +1,4 @@
 # gitresume
 Creating a resume website using gitpages
 
-https://chandran-jr.github.io/gitresume/
+<a href="https://chandran-jr.github.io/gitresume/" My resume></a>
