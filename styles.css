@@ -16,7 +16,8 @@ body {
 }
 
 a{
-  color: green;
+  color: blue;
+  text-decoration: soild;
 }
 
 .bold {
