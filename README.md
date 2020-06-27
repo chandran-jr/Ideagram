@@ -1,6 +1,5 @@
 # gitresume
 Creating a resume website using gitpages
 
-Click below to view my resume.
+Click <a href="https://chandran-jr.github.io/gitresume/">here</a> to view my resume.
 
-https://chandran-jr.github.io/gitresume/
