@@ -39,7 +39,7 @@ a{
 }
 
 .resume .resume_left {
-  width: 290px;
+  width: 270px;
   background: #0bb5f4;
 }
 
@@ -67,6 +67,7 @@ a{
 
 .resume .resume_left .regular {
   color: #b1eaff;
+  text-align: center;
 }
 
 .resume .resume_item {
@@ -236,4 +237,16 @@ a{
 
 .resume .resume_right .resume_hobby ul li:last-child:before {
   display: none;
+}
+
+.projects{
+    padding-top:25px ;
+
+}
+
+.projectlink{
+    color: #0dade7;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 20px;
 }
