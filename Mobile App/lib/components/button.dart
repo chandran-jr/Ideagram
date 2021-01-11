@@ -3,11 +3,12 @@ import 'package:flutter/material.dart';
 class Button extends StatelessWidget {
   final String text;
   final double percentage;
-  Button({this.text, this.percentage});
+  final Function function;
+  Button({this.text, this.percentage, this.function});
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: null,
+      onTap: function,
       child: Container(
         width: MediaQuery.of(context).size.width * percentage,
         decoration: BoxDecoration(
@@ -28,7 +29,8 @@ class Button extends StatelessWidget {
               style: TextStyle(
                 color: Colors.white,
                 fontFamily: 'Roboto',
-                fontSize: MediaQuery.of(context).size.height * 0.03,
+                fontWeight: FontWeight.bold,
+                fontSize: MediaQuery.of(context).size.height * 0.035,
               ),
             ),
           ),
@@ -37,3 +39,4 @@ class Button extends StatelessWidget {
     );
   }
 }
+
