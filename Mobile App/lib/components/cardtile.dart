@@ -1,11 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:ideagram/components/homeCategory.dart';
+import 'package:ideagram/screens/projectDisplayscreen.dart';
 
 class ProjectTiles extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: null,
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) {
+              return DisplayProject();
+            },
+          ),
+        );
+      },
       child: Container(
         width: MediaQuery.of(context).size.width * 0.85,
         height: MediaQuery.of(context).size.height * 0.2,
@@ -58,9 +68,9 @@ class ProjectTiles extends StatelessWidget {
                           child: Text(
                             'SMART SPARK',
                             style: TextStyle(
-                              fontSize: 24,
+                              fontSize: 20,
                               color: Colors.black,
-                              fontWeight: FontWeight.w300,
+                              fontWeight: FontWeight.bold,
                             ),
                           ),
                         ),
@@ -70,7 +80,10 @@ class ProjectTiles extends StatelessWidget {
                         Text(
                           'An energy monitoring project that sends data from sensors to cloud database.',
                           textAlign: TextAlign.justify,
-                          style: TextStyle(fontWeight: FontWeight.w300),
+                          style: TextStyle(
+                            fontWeight: FontWeight.w400,
+                            fontSize: 15,
+                          ),
                         ),
                         SizedBox(
                           height: 5,
