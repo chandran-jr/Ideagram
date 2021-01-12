@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
-class Button extends StatelessWidget {
+class LinkButton extends StatelessWidget {
   final String text;
   final double percentage;
-  final Function function;
-  Button({this.text, this.percentage, this.function});
+
+  LinkButton({this.text, this.percentage});
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: function,
+      onTap: _launchURL,
       child: Container(
         width: MediaQuery.of(context).size.width * percentage,
         decoration: BoxDecoration(
@@ -25,12 +26,14 @@ class Button extends StatelessWidget {
           child: Center(
             child: Text(
               text,
+              overflow: TextOverflow.ellipsis,
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.white,
                 fontFamily: 'Roboto',
                 fontWeight: FontWeight.bold,
-                fontSize: MediaQuery.of(context).size.height * 0.035,
+                fontSize: MediaQuery.of(context).size.height * 0.025,
+                decoration: TextDecoration.underline,
               ),
             ),
           ),
@@ -38,5 +41,13 @@ class Button extends StatelessWidget {
       ),
     );
   }
-}
 
+  _launchURL() async {
+    const url = 'https://github.com/AshNiz24/DSCWOW-SmartSpark';
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
+}
