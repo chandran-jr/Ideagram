@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:ideagram/components/projectDisplayCategory.dart';
 import 'package:ideagram/components/linkButtons.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class DisplayProject extends StatelessWidget {
   @override
@@ -139,7 +140,7 @@ class DisplayProject extends StatelessWidget {
                         Radius.circular(20),
                       ),
                     ),
-                    onPressed: () {},
+                    onPressed: () => mail('techbeestvm@gmail.com'),
                     color: Color(0xff1077E5),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -152,7 +153,7 @@ class DisplayProject extends StatelessWidget {
                           width: 6,
                         ),
                         Text(
-                          'author123@gmail.com',
+                          'techbeestvm@gmail.com',
                           style: TextStyle(
                               color: Color(0xffFFFDFD),
                               fontFamily: 'Roboto',
@@ -168,5 +169,13 @@ class DisplayProject extends StatelessWidget {
         ),
       ),
     );
+  }
+
+  mail(String toMail) async {
+    var url = 'mailto:$toMail';
+    if (await canLaunch(url))
+      await launch(url);
+    else
+      throw 'Could not launch $url';
   }
 }
