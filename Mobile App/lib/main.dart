@@ -1,6 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
-// import 'dart:js';
+import 'dart:js';
 
 import 'package:flutter/material.dart';
 import './screens/project_list_screen.dart';
