@@ -4,7 +4,7 @@ A home for your ideas. It is an app where you can find inspiration for your proj
 
 ## Mobile Application
 
-This is the Mobile application part of Ideagram built with Flutter and Firebase. Given below is the Application UI
+Given below is the Mobile application part of Ideagram built with Flutter and Firebase. Given below is the Application UI.
 <br><br>
 
 ### Landing Screen
