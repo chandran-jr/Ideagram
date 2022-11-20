@@ -1,5 +1,5 @@
 # Ideagram
-A home for your ideas. It is an app where you can find inspiration for your projects/ideas or even showcase your ideas to the world. Connect wth developers who have your similiar mindsets or ideas and explore a whole new world together and create life changing apps 🔥
+## A home for your ideas. It is an app where you can find inspiration for your projects/ideas or even showcase your ideas to the world. Connect wth developers who have your similiar mindsets or ideas and explore a whole new world together and create life changing apps 🔥
 <br><br>
 
 ## Mobile Application
