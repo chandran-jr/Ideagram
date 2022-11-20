@@ -1,0 +1,190 @@
+.showProject__Header {
+    height: 200px;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    background-image: linear-gradient(#42A3FC, #b0e0f5);
+    box-shadow: 10px 10px 8px 0px #2f97f37c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.showProject__HeaderTitle {
+    font-family: cursive;
+    font-size: 40px;
+    color: #0760c0;
+    margin-left: 70px;
+}
+
+.showProject__HeaderButtons {
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+}
+
+.showProject__Link {
+    text-decoration: none;
+}
+
+.showProject__Button {
+    border: 3px solid #1077E5;
+  border-radius: 15px;
+  width: 120px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: cursive;
+  color: #1077E5;
+  background-color: white;
+  cursor: pointer;
+}
+
+.showProject__Container {
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.showProject__Left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+
+.showProject__ImageContainer {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    border: 4px solid #1077E5;
+}
+
+.showProject__Image {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.showProject__Title {
+    font-size: 30px;
+    font-family: cursive;
+    color: #1077E5;
+    margin-top: 10px;
+}
+
+.showProject__CategoryAuthor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 120%;
+}
+
+.showProject__Category {
+    background-color: #F5FCFF;
+    border-radius: 10px;
+    border: 3px solid #1077E5;
+    font-family: cursive;
+    color: #1077E5;
+    width: 75px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.showProject__Author {
+    font-size: 20px;
+    font-family: cursive;
+    color: #1077E5;
+    font-weight: 600;
+}
+
+.showProject__Connect {
+    color:#1077E5;
+    font-size: 20px;
+    font-family: cursive;
+    margin-top: 30px;
+    width: 105%;
+}
+
+.showProject__Email {
+    color: white;
+    background-color: #1077E5;
+    font-family: cursive;
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.showProject__EmailLink {
+    color: white;
+    text-decoration: none;
+}
+
+.showProject__Right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.showProject__Description {
+    font-size: 25px;
+    font-family: cursive;
+    height: fit-content;
+    width: 80%;
+}
+
+.showProject__Links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    margin-top: 50px;
+}
+
+.showProject__LinkText {
+    font-family: cursive;
+    font-size: 30px;
+    color: #1077E5;
+    margin-right: 20px;
+}
+
+.showProject__LinkBox {
+    width: fit-content;
+    height: 25px;
+    font-size: 20px;
+    background-color: #1077E5;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: cursive;
+}
+
+.showProject__Link {
+    color: white;
+    text-decoration: none;
+}

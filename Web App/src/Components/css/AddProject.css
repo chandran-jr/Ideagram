@@ -1,0 +1,160 @@
+
+.addProject__Header {
+    height: 200px;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    background-image: linear-gradient(#42A3FC, #b0e0f5);
+    box-shadow: 10px 10px 8px 0px #2f97f37c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.addProject__HeaderTitle {
+    font-family: cursive;
+    font-size: 40px;
+    color: #0760c0;
+    margin-left: 70px;
+}
+
+.addProject__HeaderButtons {
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+}
+
+.addProject__Link {
+    text-decoration: none;
+}
+
+.addProject__Button {
+    border: 3px solid #1077E5;
+  border-radius: 15px;
+  width: 120px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  margin-top: 20px;
+  font-size: 15px;
+  font-family: cursive;
+  color: #1077E5;
+  background-color: white;
+  cursor: pointer;
+}
+
+.addProject__inputsContainer {
+    margin-top: 220px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.addProject__mainFields {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 480px;
+    flex-wrap: wrap;
+}
+
+.addProject__mainFieldSingle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.addProject__label {
+    margin-right: 100px;
+    color: #1077E5;
+    font-family: cursive;
+}
+
+.addProject__inputFieldContainer {
+    height: 50px;
+    width: 250px;
+    border: 3px solid #1077E5;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.addProject__inputField {
+    outline: none;
+    border: none;
+    margin-left: 20px;
+    color: #1077E5;
+    font-size:  15px;
+    font-family: cursive;
+}
+
+.addProject__description {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 15px;
+    height: 480px;
+    
+}
+
+.appProject__descriptionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.addProjects__descriptionTitle {
+    font-family: cursive;
+    font-size: 25px;
+    color: #1077E5;
+}
+
+.addProjects__descriptionInputContainer {
+    border: 3px solid #1077E5;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+    display: grid;
+    place-items: center;
+}
+
+.addProjects__descriptionTextArea {
+    border: none;
+    outline: none;
+    width: 95%;
+    height: 95%;
+    color: #1077E5;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.addProject__Submit {
+  border: 3px solid white;
+  border-radius: 15px;
+  width: 180px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: cursive;
+  color: white;
+  background-color: #1077E5;
+  cursor: pointer;
+}
+
+.addProject__Submit:hover {
+    background-color: white;
+    color: #1077E5;
+    border: 3px solid #1077E5;
+  }
