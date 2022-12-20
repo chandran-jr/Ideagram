@@ -2,7 +2,7 @@
 ## A home for your ideas. It is an app where you can find inspiration for your projects/ideas or even showcase your ideas to the world. Connect wth developers who have your similiar mindsets or ideas and explore a whole new world together and create life changing apps 🔥
 <br><br>
 
-## MOBILE APPLICATION (By @AshNiz24)
+## MOBILE APPLICATION (By <a href="https://github.com/AshNiz24">@AshNiz24<a/>)
 
 Given below is the Mobile application part of Ideagram built with Flutter and Firebase. Given below is the Application UI.
 <br><br>
@@ -22,9 +22,9 @@ Given below is the Mobile application part of Ideagram built with Flutter and Fi
 
 <img src="Mobile App/screenshots/alert2.jpeg" width=250 height=auto> <img src="Mobile App/screenshots/alert3.jpeg" width=250 height=auto> <img src="Mobile App/screenshots/alert.jpeg" width=250 height=auto>
 
-## WEB APPLICATION (By @chandran-jr)
+## WEB APPLICATION (By <a href="https://github.com/chandran-jr">@chandran-jr<a/>)
 
-Given below is the Web application part of Ideagram built with Flutter and Firebase. Given below is the Application UI.
+Given below is the Web application part of Ideagram built with React.js and Firebase. Given below is the Application UI.
 
 
 ### Landing Screen
